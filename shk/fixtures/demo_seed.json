@@ -1,0 +1,4313 @@
+[
+{
+  "model": "shk.produkt",
+  "pk": 61,
+  "fields": {
+    "bezeichnung": "Wärmepumpe Luft/Wasser 8 kW",
+    "verkaufspreis": "8500.00",
+    "einheit": "Stk."
+  }
+},
+{
+  "model": "shk.produkt",
+  "pk": 62,
+  "fields": {
+    "bezeichnung": "Wärmepumpe Sole/Wasser 12 kW",
+    "verkaufspreis": "13500.00",
+    "einheit": "Stk."
+  }
+},
+{
+  "model": "shk.produkt",
+  "pk": 63,
+  "fields": {
+    "bezeichnung": "Pufferspeicher 300 L",
+    "verkaufspreis": "950.00",
+    "einheit": "Stk."
+  }
+},
+{
+  "model": "shk.produkt",
+  "pk": 64,
+  "fields": {
+    "bezeichnung": "Warmwasserspeicher 300 L",
+    "verkaufspreis": "1100.00",
+    "einheit": "Stk."
+  }
+},
+{
+  "model": "shk.produkt",
+  "pk": 65,
+  "fields": {
+    "bezeichnung": "Hydraulische Weiche",
+    "verkaufspreis": "280.00",
+    "einheit": "Stk."
+  }
+},
+{
+  "model": "shk.produkt",
+  "pk": 66,
+  "fields": {
+    "bezeichnung": "Mischer-/Regelgruppe",
+    "verkaufspreis": "340.00",
+    "einheit": "Stk."
+  }
+},
+{
+  "model": "shk.produkt",
+  "pk": 67,
+  "fields": {
+    "bezeichnung": "Fußbodenheizung-Set 80 m²",
+    "verkaufspreis": "1800.00",
+    "einheit": "Set"
+  }
+},
+{
+  "model": "shk.produkt",
+  "pk": 68,
+  "fields": {
+    "bezeichnung": "Heizkörper Typ 22",
+    "verkaufspreis": "180.00",
+    "einheit": "Stk."
+  }
+},
+{
+  "model": "shk.produkt",
+  "pk": 69,
+  "fields": {
+    "bezeichnung": "PV-Modul 430 Wp",
+    "verkaufspreis": "95.00",
+    "einheit": "Stk."
+  }
+},
+{
+  "model": "shk.produkt",
+  "pk": 70,
+  "fields": {
+    "bezeichnung": "Wechselrichter 8 kW",
+    "verkaufspreis": "1450.00",
+    "einheit": "Stk."
+  }
+},
+{
+  "model": "shk.produkt",
+  "pk": 71,
+  "fields": {
+    "bezeichnung": "Batteriespeicher 10 kWh",
+    "verkaufspreis": "6800.00",
+    "einheit": "Stk."
+  }
+},
+{
+  "model": "shk.produkt",
+  "pk": 72,
+  "fields": {
+    "bezeichnung": "Montagegestell PV",
+    "verkaufspreis": "45.00",
+    "einheit": "m"
+  }
+},
+{
+  "model": "shk.produkt",
+  "pk": 73,
+  "fields": {
+    "bezeichnung": "Smart-Meter / Energiemanager",
+    "verkaufspreis": "520.00",
+    "einheit": "Stk."
+  }
+},
+{
+  "model": "shk.produkt",
+  "pk": 74,
+  "fields": {
+    "bezeichnung": "Solarthermie-Flachkollektor",
+    "verkaufspreis": "480.00",
+    "einheit": "Stk."
+  }
+},
+{
+  "model": "shk.produkt",
+  "pk": 75,
+  "fields": {
+    "bezeichnung": "Solarthermie-Komplettpaket",
+    "verkaufspreis": "3200.00",
+    "einheit": "Set"
+  }
+},
+{
+  "model": "shk.projekt",
+  "pk": 81,
+  "fields": {
+    "nummer": "PR10001",
+    "titel": "Wettiner Str. 12, 01067 Dresden",
+    "projekttyp": "Wärmepumpe",
+    "projektart": "Privatperson",
+    "status": "In Bearbeitung",
+    "enddatum": "2026-06-07",
+    "kostenvoranschlag": "14000.00"
+  }
+},
+{
+  "model": "shk.projekt",
+  "pk": 82,
+  "fields": {
+    "nummer": "PR10002",
+    "titel": "Industriegelände Hamburger Str. 60, 01067 Dresden",
+    "projekttyp": "Wärmepumpe",
+    "projektart": "Großbaustelle",
+    "status": "In Bearbeitung",
+    "enddatum": "2026-05-31",
+    "kostenvoranschlag": "39000.00"
+  }
+},
+{
+  "model": "shk.projekt",
+  "pk": 83,
+  "fields": {
+    "nummer": "PR10003",
+    "titel": "Bautzner Str. 45, 01099 Dresden",
+    "projekttyp": "Wärmepumpe",
+    "projektart": "Privatperson",
+    "status": "In Bearbeitung",
+    "enddatum": "2026-06-26",
+    "kostenvoranschlag": "14500.00"
+  }
+},
+{
+  "model": "shk.projekt",
+  "pk": 84,
+  "fields": {
+    "nummer": "PR10004",
+    "titel": "Wohnpark Pieschener Allee 8, 01067 Dresden",
+    "projekttyp": "Wärmepumpe",
+    "projektart": "Großbaustelle",
+    "status": "In Bearbeitung",
+    "enddatum": "2026-06-11",
+    "kostenvoranschlag": "25000.00"
+  }
+},
+{
+  "model": "shk.projekt",
+  "pk": 85,
+  "fields": {
+    "nummer": "PR10005",
+    "titel": "Tharandter Str. 21, 01159 Dresden",
+    "projekttyp": "Wärmepumpe",
+    "projektart": "Privatperson",
+    "status": "In Bearbeitung",
+    "enddatum": "2026-09-07",
+    "kostenvoranschlag": "35500.00"
+  }
+},
+{
+  "model": "shk.projekt",
+  "pk": 86,
+  "fields": {
+    "nummer": "PR10006",
+    "titel": "Gewerbehof Meißner Str. 30, 01445 Radebeul",
+    "projekttyp": "Wärmepumpe",
+    "projektart": "Großbaustelle",
+    "status": "In Bearbeitung",
+    "enddatum": "2026-06-14",
+    "kostenvoranschlag": "38000.00"
+  }
+},
+{
+  "model": "shk.projekt",
+  "pk": 87,
+  "fields": {
+    "nummer": "PR10007",
+    "titel": "Comeniusstr. 99, 01309 Dresden",
+    "projekttyp": "Wärmepumpe",
+    "projektart": "Privatperson",
+    "status": "In Bearbeitung",
+    "enddatum": "2026-09-09",
+    "kostenvoranschlag": "47000.00"
+  }
+},
+{
+  "model": "shk.projekt",
+  "pk": 88,
+  "fields": {
+    "nummer": "PR10008",
+    "titel": "Quartier Löbtauer Str. 50, 01159 Dresden",
+    "projekttyp": "Wärmepumpe",
+    "projektart": "Großbaustelle",
+    "status": "In Bearbeitung",
+    "enddatum": "2026-07-31",
+    "kostenvoranschlag": "28000.00"
+  }
+},
+{
+  "model": "shk.projekt",
+  "pk": 89,
+  "fields": {
+    "nummer": "PR10009",
+    "titel": "Logistikzentrum Großenhainer Str. 120, 01129 Dresden",
+    "projekttyp": "PV",
+    "projektart": "Großbaustelle",
+    "status": "Abgeschlossen",
+    "enddatum": "2026-09-19",
+    "kostenvoranschlag": "44000.00"
+  }
+},
+{
+  "model": "shk.projekt",
+  "pk": 90,
+  "fields": {
+    "nummer": "PR10010",
+    "titel": "Kötzschenbroder Str. 7, 01139 Dresden",
+    "projekttyp": "PV",
+    "projektart": "Privatperson",
+    "status": "In Bearbeitung",
+    "enddatum": "2026-10-12",
+    "kostenvoranschlag": "29000.00"
+  }
+},
+{
+  "model": "shk.projekt",
+  "pk": 91,
+  "fields": {
+    "nummer": "PR10011",
+    "titel": "Schulcampus Boxdorfer Str. 3, 01468 Moritzburg",
+    "projekttyp": "PV",
+    "projektart": "Großbaustelle",
+    "status": "In Bearbeitung",
+    "enddatum": "2026-07-28",
+    "kostenvoranschlag": "52500.00"
+  }
+},
+{
+  "model": "shk.projekt",
+  "pk": 92,
+  "fields": {
+    "nummer": "PR10012",
+    "titel": "Rietzstr. 14, 01187 Dresden",
+    "projekttyp": "PV",
+    "projektart": "Privatperson",
+    "status": "In Bearbeitung",
+    "enddatum": "2026-09-03",
+    "kostenvoranschlag": "33500.00"
+  }
+},
+{
+  "model": "shk.projekt",
+  "pk": 93,
+  "fields": {
+    "nummer": "PR10013",
+    "titel": "Produktionshalle Reicker Str. 88, 01237 Dresden",
+    "projekttyp": "PV",
+    "projektart": "Großbaustelle",
+    "status": "In Bearbeitung",
+    "enddatum": "2026-09-10",
+    "kostenvoranschlag": "33500.00"
+  }
+},
+{
+  "model": "shk.projekt",
+  "pk": 94,
+  "fields": {
+    "nummer": "PR10014",
+    "titel": "Pillnitzer Landstr. 33, 01326 Dresden",
+    "projekttyp": "PV",
+    "projektart": "Privatperson",
+    "status": "Abgeschlossen",
+    "enddatum": "2026-07-31",
+    "kostenvoranschlag": "28500.00"
+  }
+},
+{
+  "model": "shk.projekt",
+  "pk": 95,
+  "fields": {
+    "nummer": "PR10015",
+    "titel": "Kipsdorfer Str. 5, 01277 Dresden",
+    "projekttyp": "Solarthermie",
+    "projektart": "Privatperson",
+    "status": "Abgeschlossen",
+    "enddatum": "2026-09-15",
+    "kostenvoranschlag": "14500.00"
+  }
+},
+{
+  "model": "shk.projekt",
+  "pk": 96,
+  "fields": {
+    "nummer": "PR10016",
+    "titel": "Sportzentrum Bodenbacher Str. 154, 01277 Dresden",
+    "projekttyp": "Solarthermie",
+    "projektart": "Großbaustelle",
+    "status": "In Bearbeitung",
+    "enddatum": "2026-09-26",
+    "kostenvoranschlag": "25500.00"
+  }
+},
+{
+  "model": "shk.projekt",
+  "pk": 97,
+  "fields": {
+    "nummer": "PR10017",
+    "titel": "Wachwitzer Höhenweg 2, 01326 Dresden",
+    "projekttyp": "Solarthermie",
+    "projektart": "Privatperson",
+    "status": "Abgeschlossen",
+    "enddatum": "2026-08-11",
+    "kostenvoranschlag": "19000.00"
+  }
+},
+{
+  "model": "shk.projekt",
+  "pk": 98,
+  "fields": {
+    "nummer": "PR10018",
+    "titel": "Hotelanlage Bautzner Landstr. 200, 01324 Dresden",
+    "projekttyp": "Solarthermie",
+    "projektart": "Großbaustelle",
+    "status": "In Bearbeitung",
+    "enddatum": "2026-06-14",
+    "kostenvoranschlag": "33000.00"
+  }
+},
+{
+  "model": "shk.projekt",
+  "pk": 99,
+  "fields": {
+    "nummer": "PR10019",
+    "titel": "Hepkestr. 41, 01309 Dresden",
+    "projekttyp": "Bad",
+    "projektart": "Privatperson",
+    "status": "In Bearbeitung",
+    "enddatum": "2026-08-06",
+    "kostenvoranschlag": "19500.00"
+  }
+},
+{
+  "model": "shk.projekt",
+  "pk": 100,
+  "fields": {
+    "nummer": "PR10020",
+    "titel": "Seniorenresidenz Niederwaldstr. 10, 01277 Dresden",
+    "projekttyp": "Bad",
+    "projektart": "Großbaustelle",
+    "status": "Abgeschlossen",
+    "enddatum": "2026-08-02",
+    "kostenvoranschlag": "37500.00"
+  }
+},
+{
+  "model": "shk.monteur",
+  "pk": 41,
+  "fields": {
+    "name": "Mario Köhler",
+    "projekte": [
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      91
+    ]
+  }
+},
+{
+  "model": "shk.monteur",
+  "pk": 42,
+  "fields": {
+    "name": "Sven Bauer",
+    "projekte": [
+      82,
+      86,
+      88,
+      93
+    ]
+  }
+},
+{
+  "model": "shk.monteur",
+  "pk": 43,
+  "fields": {
+    "name": "Dennis Richter",
+    "projekte": [
+      81,
+      98,
+      100
+    ]
+  }
+},
+{
+  "model": "shk.monteur",
+  "pk": 44,
+  "fields": {
+    "name": "Tobias Wolf",
+    "projekte": [
+      88,
+      90,
+      95,
+      96
+    ]
+  }
+},
+{
+  "model": "shk.monteur",
+  "pk": 45,
+  "fields": {
+    "name": "André Schmidt",
+    "projekte": [
+      82,
+      89,
+      96,
+      98
+    ]
+  }
+},
+{
+  "model": "shk.monteur",
+  "pk": 46,
+  "fields": {
+    "name": "Patrick Krause",
+    "projekte": [
+      82,
+      84,
+      86,
+      88,
+      98
+    ]
+  }
+},
+{
+  "model": "shk.monteur",
+  "pk": 47,
+  "fields": {
+    "name": "Marcel Hoffmann",
+    "projekte": [
+      83,
+      89,
+      91,
+      96,
+      97,
+      100
+    ]
+  }
+},
+{
+  "model": "shk.monteur",
+  "pk": 48,
+  "fields": {
+    "name": "Kevin Lehmann",
+    "projekte": [
+      91,
+      98
+    ]
+  }
+},
+{
+  "model": "shk.monteur",
+  "pk": 49,
+  "fields": {
+    "name": "Stefan Vogel",
+    "projekte": [
+      96,
+      99
+    ]
+  }
+},
+{
+  "model": "shk.monteur",
+  "pk": 50,
+  "fields": {
+    "name": "Robert Neumann",
+    "projekte": [
+      82,
+      84,
+      92,
+      93,
+      94,
+      100
+    ]
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 305,
+  "fields": {
+    "projekt": 81,
+    "bezeichnung": "Demontage Altanlage",
+    "soll_aufwand": "31.00",
+    "enddatum": "2026-02-28",
+    "status": "Abgeschlossen",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 306,
+  "fields": {
+    "projekt": 81,
+    "bezeichnung": "Installation Wärmepumpe",
+    "soll_aufwand": "23.00",
+    "enddatum": "2026-05-07",
+    "status": "In Bearbeitung",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 307,
+  "fields": {
+    "projekt": 81,
+    "bezeichnung": "Hydraulik & Pufferspeicher",
+    "soll_aufwand": "17.00",
+    "enddatum": "2026-08-13",
+    "status": "Geplant",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 308,
+  "fields": {
+    "projekt": 81,
+    "bezeichnung": "Inbetriebnahme & Einregulierung",
+    "soll_aufwand": "37.00",
+    "enddatum": "2026-08-25",
+    "status": "Geplant",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 309,
+  "fields": {
+    "projekt": 82,
+    "bezeichnung": "Demontage Altanlage",
+    "soll_aufwand": "72.00",
+    "enddatum": "2026-03-11",
+    "status": "Abgeschlossen",
+    "abgerechnet": true
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 310,
+  "fields": {
+    "projekt": 82,
+    "bezeichnung": "Installation Wärmepumpe",
+    "soll_aufwand": "34.00",
+    "enddatum": "2026-05-06",
+    "status": "In Bearbeitung",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 311,
+  "fields": {
+    "projekt": 82,
+    "bezeichnung": "Hydraulik & Pufferspeicher",
+    "soll_aufwand": "68.00",
+    "enddatum": "2026-09-06",
+    "status": "Geplant",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 312,
+  "fields": {
+    "projekt": 82,
+    "bezeichnung": "Inbetriebnahme & Einregulierung",
+    "soll_aufwand": "50.00",
+    "enddatum": "2026-09-01",
+    "status": "Geplant",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 313,
+  "fields": {
+    "projekt": 83,
+    "bezeichnung": "Demontage Altanlage",
+    "soll_aufwand": "26.00",
+    "enddatum": "2026-05-06",
+    "status": "Abgeschlossen",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 314,
+  "fields": {
+    "projekt": 83,
+    "bezeichnung": "Installation Wärmepumpe",
+    "soll_aufwand": "39.00",
+    "enddatum": "2026-04-12",
+    "status": "Abgeschlossen",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 315,
+  "fields": {
+    "projekt": 83,
+    "bezeichnung": "Hydraulik & Pufferspeicher",
+    "soll_aufwand": "24.00",
+    "enddatum": "2026-04-28",
+    "status": "Abgeschlossen",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 316,
+  "fields": {
+    "projekt": 83,
+    "bezeichnung": "Inbetriebnahme & Einregulierung",
+    "soll_aufwand": "19.00",
+    "enddatum": "2026-06-01",
+    "status": "In Bearbeitung",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 317,
+  "fields": {
+    "projekt": 84,
+    "bezeichnung": "Demontage Altanlage",
+    "soll_aufwand": "34.00",
+    "enddatum": "2026-04-01",
+    "status": "Abgeschlossen",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 318,
+  "fields": {
+    "projekt": 84,
+    "bezeichnung": "Installation Wärmepumpe",
+    "soll_aufwand": "52.00",
+    "enddatum": "2026-04-25",
+    "status": "Abgeschlossen",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 319,
+  "fields": {
+    "projekt": 84,
+    "bezeichnung": "Hydraulik & Pufferspeicher",
+    "soll_aufwand": "54.00",
+    "enddatum": "2026-04-02",
+    "status": "Abgeschlossen",
+    "abgerechnet": true
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 320,
+  "fields": {
+    "projekt": 84,
+    "bezeichnung": "Inbetriebnahme & Einregulierung",
+    "soll_aufwand": "68.00",
+    "enddatum": "2026-06-05",
+    "status": "In Bearbeitung",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 321,
+  "fields": {
+    "projekt": 85,
+    "bezeichnung": "Demontage Altanlage",
+    "soll_aufwand": "35.00",
+    "enddatum": "2026-03-13",
+    "status": "Abgeschlossen",
+    "abgerechnet": true
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 322,
+  "fields": {
+    "projekt": 85,
+    "bezeichnung": "Installation Wärmepumpe",
+    "soll_aufwand": "38.00",
+    "enddatum": "2026-07-13",
+    "status": "In Bearbeitung",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 323,
+  "fields": {
+    "projekt": 85,
+    "bezeichnung": "Hydraulik & Pufferspeicher",
+    "soll_aufwand": "25.00",
+    "enddatum": "2026-07-29",
+    "status": "In Bearbeitung",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 324,
+  "fields": {
+    "projekt": 85,
+    "bezeichnung": "Inbetriebnahme & Einregulierung",
+    "soll_aufwand": "19.00",
+    "enddatum": "2026-08-24",
+    "status": "Geplant",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 325,
+  "fields": {
+    "projekt": 86,
+    "bezeichnung": "Demontage Altanlage",
+    "soll_aufwand": "29.00",
+    "enddatum": "2026-02-28",
+    "status": "Abgeschlossen",
+    "abgerechnet": true
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 326,
+  "fields": {
+    "projekt": 86,
+    "bezeichnung": "Installation Wärmepumpe",
+    "soll_aufwand": "68.00",
+    "enddatum": "2026-05-22",
+    "status": "In Bearbeitung",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 327,
+  "fields": {
+    "projekt": 86,
+    "bezeichnung": "Hydraulik & Pufferspeicher",
+    "soll_aufwand": "63.00",
+    "enddatum": "2026-07-25",
+    "status": "Geplant",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 328,
+  "fields": {
+    "projekt": 86,
+    "bezeichnung": "Inbetriebnahme & Einregulierung",
+    "soll_aufwand": "70.00",
+    "enddatum": "2026-07-14",
+    "status": "Geplant",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 329,
+  "fields": {
+    "projekt": 87,
+    "bezeichnung": "Demontage Altanlage",
+    "soll_aufwand": "22.00",
+    "enddatum": "2026-04-08",
+    "status": "Abgeschlossen",
+    "abgerechnet": true
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 330,
+  "fields": {
+    "projekt": 87,
+    "bezeichnung": "Installation Wärmepumpe",
+    "soll_aufwand": "24.00",
+    "enddatum": "2026-06-29",
+    "status": "In Bearbeitung",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 331,
+  "fields": {
+    "projekt": 87,
+    "bezeichnung": "Hydraulik & Pufferspeicher",
+    "soll_aufwand": "19.00",
+    "enddatum": "2026-06-30",
+    "status": "In Bearbeitung",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 332,
+  "fields": {
+    "projekt": 87,
+    "bezeichnung": "Inbetriebnahme & Einregulierung",
+    "soll_aufwand": "24.00",
+    "enddatum": "2026-08-26",
+    "status": "Geplant",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 333,
+  "fields": {
+    "projekt": 88,
+    "bezeichnung": "Demontage Altanlage",
+    "soll_aufwand": "56.00",
+    "enddatum": "2026-04-09",
+    "status": "Abgeschlossen",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 334,
+  "fields": {
+    "projekt": 88,
+    "bezeichnung": "Installation Wärmepumpe",
+    "soll_aufwand": "29.00",
+    "enddatum": "2026-05-10",
+    "status": "Abgeschlossen",
+    "abgerechnet": true
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 335,
+  "fields": {
+    "projekt": 88,
+    "bezeichnung": "Hydraulik & Pufferspeicher",
+    "soll_aufwand": "70.00",
+    "enddatum": "2026-03-07",
+    "status": "Abgeschlossen",
+    "abgerechnet": true
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 336,
+  "fields": {
+    "projekt": 88,
+    "bezeichnung": "Inbetriebnahme & Einregulierung",
+    "soll_aufwand": "40.00",
+    "enddatum": "2026-07-03",
+    "status": "In Bearbeitung",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 337,
+  "fields": {
+    "projekt": 89,
+    "bezeichnung": "Unterkonstruktion & Gerüst",
+    "soll_aufwand": "29.00",
+    "enddatum": "2026-01-26",
+    "status": "Abgeschlossen",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 338,
+  "fields": {
+    "projekt": 89,
+    "bezeichnung": "Modulmontage",
+    "soll_aufwand": "63.00",
+    "enddatum": "2026-04-27",
+    "status": "Abgeschlossen",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 339,
+  "fields": {
+    "projekt": 89,
+    "bezeichnung": "Wechselrichter & Verkabelung",
+    "soll_aufwand": "38.00",
+    "enddatum": "2026-02-03",
+    "status": "Abgeschlossen",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 340,
+  "fields": {
+    "projekt": 89,
+    "bezeichnung": "Netzanschluss & Inbetriebnahme",
+    "soll_aufwand": "67.00",
+    "enddatum": "2026-08-22",
+    "status": "In Bearbeitung",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 341,
+  "fields": {
+    "projekt": 90,
+    "bezeichnung": "Unterkonstruktion & Gerüst",
+    "soll_aufwand": "29.00",
+    "enddatum": "2026-01-11",
+    "status": "Abgeschlossen",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 342,
+  "fields": {
+    "projekt": 90,
+    "bezeichnung": "Modulmontage",
+    "soll_aufwand": "34.00",
+    "enddatum": "2026-05-14",
+    "status": "Abgeschlossen",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 343,
+  "fields": {
+    "projekt": 90,
+    "bezeichnung": "Wechselrichter & Verkabelung",
+    "soll_aufwand": "19.00",
+    "enddatum": "2026-05-04",
+    "status": "Abgeschlossen",
+    "abgerechnet": true
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 344,
+  "fields": {
+    "projekt": 90,
+    "bezeichnung": "Netzanschluss & Inbetriebnahme",
+    "soll_aufwand": "25.00",
+    "enddatum": "2026-09-14",
+    "status": "In Bearbeitung",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 345,
+  "fields": {
+    "projekt": 91,
+    "bezeichnung": "Unterkonstruktion & Gerüst",
+    "soll_aufwand": "34.00",
+    "enddatum": "2026-04-13",
+    "status": "Abgeschlossen",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 346,
+  "fields": {
+    "projekt": 91,
+    "bezeichnung": "Modulmontage",
+    "soll_aufwand": "40.00",
+    "enddatum": "2026-01-30",
+    "status": "Abgeschlossen",
+    "abgerechnet": true
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 347,
+  "fields": {
+    "projekt": 91,
+    "bezeichnung": "Wechselrichter & Verkabelung",
+    "soll_aufwand": "59.00",
+    "enddatum": "2026-05-17",
+    "status": "Abgeschlossen",
+    "abgerechnet": true
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 348,
+  "fields": {
+    "projekt": 91,
+    "bezeichnung": "Netzanschluss & Inbetriebnahme",
+    "soll_aufwand": "54.00",
+    "enddatum": "2026-06-30",
+    "status": "In Bearbeitung",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 349,
+  "fields": {
+    "projekt": 92,
+    "bezeichnung": "Unterkonstruktion & Gerüst",
+    "soll_aufwand": "30.00",
+    "enddatum": "2026-02-28",
+    "status": "Abgeschlossen",
+    "abgerechnet": true
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 350,
+  "fields": {
+    "projekt": 92,
+    "bezeichnung": "Modulmontage",
+    "soll_aufwand": "31.00",
+    "enddatum": "2026-08-04",
+    "status": "In Bearbeitung",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 351,
+  "fields": {
+    "projekt": 92,
+    "bezeichnung": "Wechselrichter & Verkabelung",
+    "soll_aufwand": "19.00",
+    "enddatum": "2026-07-10",
+    "status": "In Bearbeitung",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 352,
+  "fields": {
+    "projekt": 92,
+    "bezeichnung": "Netzanschluss & Inbetriebnahme",
+    "soll_aufwand": "25.00",
+    "enddatum": "2026-08-20",
+    "status": "Geplant",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 353,
+  "fields": {
+    "projekt": 93,
+    "bezeichnung": "Unterkonstruktion & Gerüst",
+    "soll_aufwand": "41.00",
+    "enddatum": "2026-03-01",
+    "status": "Abgeschlossen",
+    "abgerechnet": true
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 354,
+  "fields": {
+    "projekt": 93,
+    "bezeichnung": "Modulmontage",
+    "soll_aufwand": "32.00",
+    "enddatum": "2026-07-07",
+    "status": "In Bearbeitung",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 355,
+  "fields": {
+    "projekt": 93,
+    "bezeichnung": "Wechselrichter & Verkabelung",
+    "soll_aufwand": "58.00",
+    "enddatum": "2026-06-26",
+    "status": "In Bearbeitung",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 356,
+  "fields": {
+    "projekt": 93,
+    "bezeichnung": "Netzanschluss & Inbetriebnahme",
+    "soll_aufwand": "38.00",
+    "enddatum": "2026-08-27",
+    "status": "Geplant",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 357,
+  "fields": {
+    "projekt": 94,
+    "bezeichnung": "Unterkonstruktion & Gerüst",
+    "soll_aufwand": "24.00",
+    "enddatum": "2026-04-19",
+    "status": "Abgeschlossen",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 358,
+  "fields": {
+    "projekt": 94,
+    "bezeichnung": "Modulmontage",
+    "soll_aufwand": "32.00",
+    "enddatum": "2026-01-21",
+    "status": "Abgeschlossen",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 359,
+  "fields": {
+    "projekt": 94,
+    "bezeichnung": "Wechselrichter & Verkabelung",
+    "soll_aufwand": "30.00",
+    "enddatum": "2026-03-28",
+    "status": "Abgeschlossen",
+    "abgerechnet": true
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 360,
+  "fields": {
+    "projekt": 94,
+    "bezeichnung": "Netzanschluss & Inbetriebnahme",
+    "soll_aufwand": "24.00",
+    "enddatum": "2026-07-03",
+    "status": "In Bearbeitung",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 361,
+  "fields": {
+    "projekt": 95,
+    "bezeichnung": "Kollektormontage Dach",
+    "soll_aufwand": "32.00",
+    "enddatum": "2026-03-31",
+    "status": "Abgeschlossen",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 362,
+  "fields": {
+    "projekt": 95,
+    "bezeichnung": "Speicher & Hydraulik",
+    "soll_aufwand": "36.00",
+    "enddatum": "2026-03-19",
+    "status": "Abgeschlossen",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 363,
+  "fields": {
+    "projekt": 95,
+    "bezeichnung": "Inbetriebnahme",
+    "soll_aufwand": "36.00",
+    "enddatum": "2026-08-18",
+    "status": "In Bearbeitung",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 364,
+  "fields": {
+    "projekt": 96,
+    "bezeichnung": "Kollektormontage Dach",
+    "soll_aufwand": "31.00",
+    "enddatum": "2026-04-25",
+    "status": "Abgeschlossen",
+    "abgerechnet": true
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 365,
+  "fields": {
+    "projekt": 96,
+    "bezeichnung": "Speicher & Hydraulik",
+    "soll_aufwand": "65.00",
+    "enddatum": "2026-07-04",
+    "status": "In Bearbeitung",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 366,
+  "fields": {
+    "projekt": 96,
+    "bezeichnung": "Inbetriebnahme",
+    "soll_aufwand": "34.00",
+    "enddatum": "2026-09-12",
+    "status": "Geplant",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 367,
+  "fields": {
+    "projekt": 97,
+    "bezeichnung": "Kollektormontage Dach",
+    "soll_aufwand": "19.00",
+    "enddatum": "2026-03-24",
+    "status": "Abgeschlossen",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 368,
+  "fields": {
+    "projekt": 97,
+    "bezeichnung": "Speicher & Hydraulik",
+    "soll_aufwand": "27.00",
+    "enddatum": "2026-02-06",
+    "status": "Abgeschlossen",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 369,
+  "fields": {
+    "projekt": 97,
+    "bezeichnung": "Inbetriebnahme",
+    "soll_aufwand": "28.00",
+    "enddatum": "2026-07-14",
+    "status": "In Bearbeitung",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 370,
+  "fields": {
+    "projekt": 98,
+    "bezeichnung": "Kollektormontage Dach",
+    "soll_aufwand": "47.00",
+    "enddatum": "2026-02-10",
+    "status": "Abgeschlossen",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 371,
+  "fields": {
+    "projekt": 98,
+    "bezeichnung": "Speicher & Hydraulik",
+    "soll_aufwand": "49.00",
+    "enddatum": "2026-04-25",
+    "status": "In Bearbeitung",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 372,
+  "fields": {
+    "projekt": 98,
+    "bezeichnung": "Inbetriebnahme",
+    "soll_aufwand": "68.00",
+    "enddatum": "2026-08-18",
+    "status": "Geplant",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 373,
+  "fields": {
+    "projekt": 99,
+    "bezeichnung": "Demontage & Rohbau",
+    "soll_aufwand": "38.00",
+    "enddatum": "2026-04-11",
+    "status": "Abgeschlossen",
+    "abgerechnet": true
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 374,
+  "fields": {
+    "projekt": 99,
+    "bezeichnung": "Rohinstallation Sanitär",
+    "soll_aufwand": "40.00",
+    "enddatum": "2026-07-14",
+    "status": "In Bearbeitung",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 375,
+  "fields": {
+    "projekt": 99,
+    "bezeichnung": "Fliesen & Montage",
+    "soll_aufwand": "21.00",
+    "enddatum": "2026-07-16",
+    "status": "In Bearbeitung",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 376,
+  "fields": {
+    "projekt": 99,
+    "bezeichnung": "Endmontage & Abnahme",
+    "soll_aufwand": "22.00",
+    "enddatum": "2026-07-23",
+    "status": "Geplant",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 377,
+  "fields": {
+    "projekt": 100,
+    "bezeichnung": "Demontage & Rohbau",
+    "soll_aufwand": "70.00",
+    "enddatum": "2026-04-04",
+    "status": "Abgeschlossen",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 378,
+  "fields": {
+    "projekt": 100,
+    "bezeichnung": "Rohinstallation Sanitär",
+    "soll_aufwand": "70.00",
+    "enddatum": "2026-04-07",
+    "status": "Abgeschlossen",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 379,
+  "fields": {
+    "projekt": 100,
+    "bezeichnung": "Fliesen & Montage",
+    "soll_aufwand": "43.00",
+    "enddatum": "2026-01-16",
+    "status": "Abgeschlossen",
+    "abgerechnet": true
+  }
+},
+{
+  "model": "shk.projektvorgang",
+  "pk": 380,
+  "fields": {
+    "projekt": 100,
+    "bezeichnung": "Endmontage & Abnahme",
+    "soll_aufwand": "31.00",
+    "enddatum": "2026-07-05",
+    "status": "In Bearbeitung",
+    "abgerechnet": false
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 523,
+  "fields": {
+    "projekt": 81,
+    "vorgang": 305,
+    "monteur": 43,
+    "datum": "2026-02-09T08:00:00Z",
+    "stunden": "31.00",
+    "text": "Inbetriebnahme abgeschlossen, Messwerte im Sollbereich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 524,
+  "fields": {
+    "projekt": 81,
+    "vorgang": 306,
+    "monteur": 43,
+    "datum": "2026-04-25T07:00:00Z",
+    "stunden": "6.80",
+    "text": "Verzögerung: Altanlage komplizierter als erwartet, mehr Aufwand nötig."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 525,
+  "fields": {
+    "projekt": 82,
+    "vorgang": 309,
+    "monteur": 46,
+    "datum": "2026-02-15T08:00:00Z",
+    "stunden": "17.00",
+    "text": "Lieferung verspätet, Restarbeiten verschieben sich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 526,
+  "fields": {
+    "projekt": 82,
+    "vorgang": 309,
+    "monteur": 50,
+    "datum": "2026-02-14T08:00:00Z",
+    "stunden": "14.50",
+    "text": "Zusätzliche Anpassungen an der Hydraulik erforderlich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 527,
+  "fields": {
+    "projekt": 82,
+    "vorgang": 309,
+    "monteur": 46,
+    "datum": "2026-02-27T08:00:00Z",
+    "stunden": "40.50",
+    "text": "Inbetriebnahme abgeschlossen, Messwerte im Sollbereich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 528,
+  "fields": {
+    "projekt": 82,
+    "vorgang": 310,
+    "monteur": 46,
+    "datum": "2026-05-03T07:00:00Z",
+    "stunden": "3.30",
+    "text": "Zusätzliche Anpassungen an der Hydraulik erforderlich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 529,
+  "fields": {
+    "projekt": 82,
+    "vorgang": 310,
+    "monteur": 42,
+    "datum": "2026-04-23T07:00:00Z",
+    "stunden": "5.80",
+    "text": "Verzögerung: Altanlage komplizierter als erwartet, mehr Aufwand nötig."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 530,
+  "fields": {
+    "projekt": 82,
+    "vorgang": 310,
+    "monteur": 45,
+    "datum": "2026-04-26T07:00:00Z",
+    "stunden": "5.70",
+    "text": "Lieferung verspätet, Restarbeiten verschieben sich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 531,
+  "fields": {
+    "projekt": 83,
+    "vorgang": 313,
+    "monteur": 47,
+    "datum": "2026-04-27T07:00:00Z",
+    "stunden": "7.70",
+    "text": "Verzögerung: Altanlage komplizierter als erwartet, mehr Aufwand nötig."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 532,
+  "fields": {
+    "projekt": 83,
+    "vorgang": 313,
+    "monteur": 47,
+    "datum": "2026-05-01T07:00:00Z",
+    "stunden": "21.80",
+    "text": "Vorgang abgeschlossen, Funktionsprüfung erfolgreich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 533,
+  "fields": {
+    "projekt": 83,
+    "vorgang": 314,
+    "monteur": 47,
+    "datum": "2026-03-21T08:00:00Z",
+    "stunden": "41.00",
+    "text": "Inbetriebnahme abgeschlossen, Messwerte im Sollbereich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 534,
+  "fields": {
+    "projekt": 83,
+    "vorgang": 315,
+    "monteur": 47,
+    "datum": "2026-04-11T07:00:00Z",
+    "stunden": "17.60",
+    "text": "Zusätzliche Anpassungen an der Hydraulik erforderlich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 535,
+  "fields": {
+    "projekt": 83,
+    "vorgang": 315,
+    "monteur": 47,
+    "datum": "2026-04-07T07:00:00Z",
+    "stunden": "5.00",
+    "text": "Verzögerung: Altanlage komplizierter als erwartet, mehr Aufwand nötig."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 536,
+  "fields": {
+    "projekt": 83,
+    "vorgang": 315,
+    "monteur": 47,
+    "datum": "2026-04-08T07:00:00Z",
+    "stunden": "3.50",
+    "text": "Endmontage erledigt, Anlage übergeben."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 537,
+  "fields": {
+    "projekt": 83,
+    "vorgang": 316,
+    "monteur": 47,
+    "datum": "2026-05-13T07:00:00Z",
+    "stunden": "3.10",
+    "text": "Lieferung verspätet, Restarbeiten verschieben sich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 538,
+  "fields": {
+    "projekt": 83,
+    "vorgang": 316,
+    "monteur": 47,
+    "datum": "2026-05-18T07:00:00Z",
+    "stunden": "6.30",
+    "text": "Verzögerung: Altanlage komplizierter als erwartet, mehr Aufwand nötig."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 539,
+  "fields": {
+    "projekt": 83,
+    "vorgang": 316,
+    "monteur": 47,
+    "datum": "2026-05-26T07:00:00Z",
+    "stunden": "3.90",
+    "text": "Lieferung verspätet, Restarbeiten verschieben sich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 540,
+  "fields": {
+    "projekt": 84,
+    "vorgang": 317,
+    "monteur": 41,
+    "datum": "2026-03-08T08:00:00Z",
+    "stunden": "39.00",
+    "text": "Inbetriebnahme abgeschlossen, Messwerte im Sollbereich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 541,
+  "fields": {
+    "projekt": 84,
+    "vorgang": 318,
+    "monteur": 46,
+    "datum": "2026-04-23T07:00:00Z",
+    "stunden": "36.90",
+    "text": "Lieferung verspätet, Restarbeiten verschieben sich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 542,
+  "fields": {
+    "projekt": 84,
+    "vorgang": 318,
+    "monteur": 50,
+    "datum": "2026-04-20T07:00:00Z",
+    "stunden": "10.90",
+    "text": "Verzögerung: Altanlage komplizierter als erwartet, mehr Aufwand nötig."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 543,
+  "fields": {
+    "projekt": 84,
+    "vorgang": 318,
+    "monteur": 50,
+    "datum": "2026-04-22T07:00:00Z",
+    "stunden": "22.00",
+    "text": "Endmontage erledigt, Anlage übergeben."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 544,
+  "fields": {
+    "projekt": 84,
+    "vorgang": 319,
+    "monteur": 41,
+    "datum": "2026-03-14T08:00:00Z",
+    "stunden": "36.10",
+    "text": "Verzögerung: Altanlage komplizierter als erwartet, mehr Aufwand nötig."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 545,
+  "fields": {
+    "projekt": 84,
+    "vorgang": 319,
+    "monteur": 41,
+    "datum": "2026-03-27T08:00:00Z",
+    "stunden": "21.30",
+    "text": "Zusätzliche Anpassungen an der Hydraulik erforderlich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 546,
+  "fields": {
+    "projekt": 84,
+    "vorgang": 319,
+    "monteur": 41,
+    "datum": "2026-03-08T08:00:00Z",
+    "stunden": "7.20",
+    "text": "Vorgang abgeschlossen, Funktionsprüfung erfolgreich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 547,
+  "fields": {
+    "projekt": 84,
+    "vorgang": 320,
+    "monteur": 46,
+    "datum": "2026-05-12T07:00:00Z",
+    "stunden": "21.30",
+    "text": "Verzögerung: Altanlage komplizierter als erwartet, mehr Aufwand nötig."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 548,
+  "fields": {
+    "projekt": 84,
+    "vorgang": 320,
+    "monteur": 46,
+    "datum": "2026-05-25T07:00:00Z",
+    "stunden": "3.50",
+    "text": "Zusätzliche Anpassungen an der Hydraulik erforderlich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 549,
+  "fields": {
+    "projekt": 84,
+    "vorgang": 320,
+    "monteur": 41,
+    "datum": "2026-05-15T07:00:00Z",
+    "stunden": "18.20",
+    "text": "Verzögerung: Altanlage komplizierter als erwartet, mehr Aufwand nötig."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 550,
+  "fields": {
+    "projekt": 85,
+    "vorgang": 321,
+    "monteur": 41,
+    "datum": "2026-02-20T08:00:00Z",
+    "stunden": "32.00",
+    "text": "Kunde informiert, Zwischenstand abgestimmt."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 551,
+  "fields": {
+    "projekt": 85,
+    "vorgang": 321,
+    "monteur": 41,
+    "datum": "2026-02-21T08:00:00Z",
+    "stunden": "4.70",
+    "text": "Inbetriebnahme abgeschlossen, Messwerte im Sollbereich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 552,
+  "fields": {
+    "projekt": 85,
+    "vorgang": 322,
+    "monteur": 41,
+    "datum": "2026-06-21T07:00:00Z",
+    "stunden": "16.50",
+    "text": "Material angeliefert und verbaut, Anschluss vorbereitet."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 553,
+  "fields": {
+    "projekt": 85,
+    "vorgang": 323,
+    "monteur": 41,
+    "datum": "2026-07-11T07:00:00Z",
+    "stunden": "1.40",
+    "text": "Material angeliefert und verbaut, Anschluss vorbereitet."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 554,
+  "fields": {
+    "projekt": 85,
+    "vorgang": 323,
+    "monteur": 41,
+    "datum": "2026-07-14T07:00:00Z",
+    "stunden": "14.40",
+    "text": "Kunde informiert, Zwischenstand abgestimmt."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 555,
+  "fields": {
+    "projekt": 86,
+    "vorgang": 325,
+    "monteur": 41,
+    "datum": "2026-02-05T08:00:00Z",
+    "stunden": "7.90",
+    "text": "Witterung/Zugang erschwert den Fortschritt deutlich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 556,
+  "fields": {
+    "projekt": 86,
+    "vorgang": 325,
+    "monteur": 42,
+    "datum": "2026-02-22T08:00:00Z",
+    "stunden": "15.80",
+    "text": "Witterung/Zugang erschwert den Fortschritt deutlich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 557,
+  "fields": {
+    "projekt": 86,
+    "vorgang": 325,
+    "monteur": 41,
+    "datum": "2026-02-10T08:00:00Z",
+    "stunden": "5.30",
+    "text": "Inbetriebnahme abgeschlossen, Messwerte im Sollbereich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 558,
+  "fields": {
+    "projekt": 86,
+    "vorgang": 326,
+    "monteur": 46,
+    "datum": "2026-05-10T07:00:00Z",
+    "stunden": "22.10",
+    "text": "Verzögerung: Altanlage komplizierter als erwartet, mehr Aufwand nötig."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 559,
+  "fields": {
+    "projekt": 86,
+    "vorgang": 326,
+    "monteur": 46,
+    "datum": "2026-05-17T07:00:00Z",
+    "stunden": "6.10",
+    "text": "Witterung/Zugang erschwert den Fortschritt deutlich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 560,
+  "fields": {
+    "projekt": 87,
+    "vorgang": 329,
+    "monteur": 41,
+    "datum": "2026-03-29T07:00:00Z",
+    "stunden": "0.90",
+    "text": "Kunde informiert, Zwischenstand abgestimmt."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 561,
+  "fields": {
+    "projekt": 87,
+    "vorgang": 329,
+    "monteur": 41,
+    "datum": "2026-03-24T08:00:00Z",
+    "stunden": "20.80",
+    "text": "Vorgang abgeschlossen, Funktionsprüfung erfolgreich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 562,
+  "fields": {
+    "projekt": 87,
+    "vorgang": 330,
+    "monteur": 41,
+    "datum": "2026-06-26T07:00:00Z",
+    "stunden": "7.10",
+    "text": "Montage abgeschnitten, weiter geht es nächste Woche."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 563,
+  "fields": {
+    "projekt": 87,
+    "vorgang": 330,
+    "monteur": 41,
+    "datum": "2026-06-17T07:00:00Z",
+    "stunden": "6.90",
+    "text": "Arbeiten planmäßig fortgesetzt, keine Auffälligkeiten."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 564,
+  "fields": {
+    "projekt": 87,
+    "vorgang": 331,
+    "monteur": 41,
+    "datum": "2026-06-06T07:00:00Z",
+    "stunden": "2.60",
+    "text": "Material angeliefert und verbaut, Anschluss vorbereitet."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 565,
+  "fields": {
+    "projekt": 87,
+    "vorgang": 331,
+    "monteur": 41,
+    "datum": "2026-06-17T07:00:00Z",
+    "stunden": "5.40",
+    "text": "Kunde informiert, Zwischenstand abgestimmt."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 566,
+  "fields": {
+    "projekt": 87,
+    "vorgang": 331,
+    "monteur": 41,
+    "datum": "2026-06-11T07:00:00Z",
+    "stunden": "1.90",
+    "text": "Kunde informiert, Zwischenstand abgestimmt."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 567,
+  "fields": {
+    "projekt": 88,
+    "vorgang": 333,
+    "monteur": 44,
+    "datum": "2026-04-01T07:00:00Z",
+    "stunden": "30.10",
+    "text": "Montage abgeschnitten, weiter geht es nächste Woche."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 568,
+  "fields": {
+    "projekt": 88,
+    "vorgang": 333,
+    "monteur": 41,
+    "datum": "2026-04-01T07:00:00Z",
+    "stunden": "5.50",
+    "text": "Material angeliefert und verbaut, Anschluss vorbereitet."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 569,
+  "fields": {
+    "projekt": 88,
+    "vorgang": 333,
+    "monteur": 44,
+    "datum": "2026-03-25T08:00:00Z",
+    "stunden": "22.70",
+    "text": "Inbetriebnahme abgeschlossen, Messwerte im Sollbereich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 570,
+  "fields": {
+    "projekt": 88,
+    "vorgang": 334,
+    "monteur": 44,
+    "datum": "2026-04-29T07:00:00Z",
+    "stunden": "21.50",
+    "text": "Montage abgeschnitten, weiter geht es nächste Woche."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 571,
+  "fields": {
+    "projekt": 88,
+    "vorgang": 334,
+    "monteur": 46,
+    "datum": "2026-04-27T07:00:00Z",
+    "stunden": "7.00",
+    "text": "Vorgang abgeschlossen, Funktionsprüfung erfolgreich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 572,
+  "fields": {
+    "projekt": 88,
+    "vorgang": 335,
+    "monteur": 44,
+    "datum": "2026-02-22T08:00:00Z",
+    "stunden": "27.10",
+    "text": "Montage abgeschnitten, weiter geht es nächste Woche."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 573,
+  "fields": {
+    "projekt": 88,
+    "vorgang": 335,
+    "monteur": 44,
+    "datum": "2026-03-03T08:00:00Z",
+    "stunden": "44.70",
+    "text": "Inbetriebnahme abgeschlossen, Messwerte im Sollbereich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 574,
+  "fields": {
+    "projekt": 88,
+    "vorgang": 336,
+    "monteur": 44,
+    "datum": "2026-06-17T07:00:00Z",
+    "stunden": "6.80",
+    "text": "Arbeiten planmäßig fortgesetzt, keine Auffälligkeiten."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 575,
+  "fields": {
+    "projekt": 88,
+    "vorgang": 336,
+    "monteur": 42,
+    "datum": "2026-06-10T07:00:00Z",
+    "stunden": "5.70",
+    "text": "Material angeliefert und verbaut, Anschluss vorbereitet."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 576,
+  "fields": {
+    "projekt": 89,
+    "vorgang": 337,
+    "monteur": 45,
+    "datum": "2026-01-01T08:00:00Z",
+    "stunden": "31.10",
+    "text": "Vorgang abgeschlossen, Funktionsprüfung erfolgreich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 577,
+  "fields": {
+    "projekt": 89,
+    "vorgang": 338,
+    "monteur": 47,
+    "datum": "2026-04-22T07:00:00Z",
+    "stunden": "14.50",
+    "text": "Arbeiten planmäßig fortgesetzt, keine Auffälligkeiten."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 578,
+  "fields": {
+    "projekt": 89,
+    "vorgang": 338,
+    "monteur": 41,
+    "datum": "2026-04-06T07:00:00Z",
+    "stunden": "42.60",
+    "text": "Inbetriebnahme abgeschlossen, Messwerte im Sollbereich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 579,
+  "fields": {
+    "projekt": 89,
+    "vorgang": 339,
+    "monteur": 41,
+    "datum": "2026-02-01T08:00:00Z",
+    "stunden": "16.00",
+    "text": "Material angeliefert und verbaut, Anschluss vorbereitet."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 580,
+  "fields": {
+    "projekt": 89,
+    "vorgang": 339,
+    "monteur": 45,
+    "datum": "2026-01-22T08:00:00Z",
+    "stunden": "14.90",
+    "text": "Arbeiten planmäßig fortgesetzt, keine Auffälligkeiten."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 581,
+  "fields": {
+    "projekt": 89,
+    "vorgang": 339,
+    "monteur": 45,
+    "datum": "2026-01-27T08:00:00Z",
+    "stunden": "4.90",
+    "text": "Endmontage erledigt, Anlage übergeben."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 582,
+  "fields": {
+    "projekt": 89,
+    "vorgang": 340,
+    "monteur": 41,
+    "datum": "2026-08-04T07:00:00Z",
+    "stunden": "30.30",
+    "text": "Material angeliefert und verbaut, Anschluss vorbereitet."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 583,
+  "fields": {
+    "projekt": 90,
+    "vorgang": 341,
+    "monteur": 44,
+    "datum": "2026-01-08T08:00:00Z",
+    "stunden": "31.10",
+    "text": "Vorgang abgeschlossen, Funktionsprüfung erfolgreich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 584,
+  "fields": {
+    "projekt": 90,
+    "vorgang": 342,
+    "monteur": 44,
+    "datum": "2026-05-04T07:00:00Z",
+    "stunden": "6.10",
+    "text": "Arbeiten planmäßig fortgesetzt, keine Auffälligkeiten."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 585,
+  "fields": {
+    "projekt": 90,
+    "vorgang": 342,
+    "monteur": 44,
+    "datum": "2026-05-07T07:00:00Z",
+    "stunden": "26.70",
+    "text": "Endmontage erledigt, Anlage übergeben."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 586,
+  "fields": {
+    "projekt": 90,
+    "vorgang": 343,
+    "monteur": 44,
+    "datum": "2026-04-22T07:00:00Z",
+    "stunden": "20.40",
+    "text": "Vorgang abgeschlossen, Funktionsprüfung erfolgreich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 587,
+  "fields": {
+    "projekt": 90,
+    "vorgang": 344,
+    "monteur": 44,
+    "datum": "2026-08-28T07:00:00Z",
+    "stunden": "8.90",
+    "text": "Material angeliefert und verbaut, Anschluss vorbereitet."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 588,
+  "fields": {
+    "projekt": 90,
+    "vorgang": 344,
+    "monteur": 44,
+    "datum": "2026-08-27T07:00:00Z",
+    "stunden": "1.00",
+    "text": "Material angeliefert und verbaut, Anschluss vorbereitet."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 589,
+  "fields": {
+    "projekt": 91,
+    "vorgang": 345,
+    "monteur": 48,
+    "datum": "2026-04-06T07:00:00Z",
+    "stunden": "30.70",
+    "text": "Inbetriebnahme abgeschlossen, Messwerte im Sollbereich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 590,
+  "fields": {
+    "projekt": 91,
+    "vorgang": 346,
+    "monteur": 48,
+    "datum": "2026-01-05T08:00:00Z",
+    "stunden": "18.10",
+    "text": "Arbeiten planmäßig fortgesetzt, keine Auffälligkeiten."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 591,
+  "fields": {
+    "projekt": 91,
+    "vorgang": 346,
+    "monteur": 48,
+    "datum": "2026-01-25T08:00:00Z",
+    "stunden": "13.00",
+    "text": "Material angeliefert und verbaut, Anschluss vorbereitet."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 592,
+  "fields": {
+    "projekt": 91,
+    "vorgang": 346,
+    "monteur": 41,
+    "datum": "2026-01-26T08:00:00Z",
+    "stunden": "10.60",
+    "text": "Vorgang abgeschlossen, Funktionsprüfung erfolgreich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 593,
+  "fields": {
+    "projekt": 91,
+    "vorgang": 347,
+    "monteur": 41,
+    "datum": "2026-05-08T07:00:00Z",
+    "stunden": "8.20",
+    "text": "Material angeliefert und verbaut, Anschluss vorbereitet."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 594,
+  "fields": {
+    "projekt": 91,
+    "vorgang": 347,
+    "monteur": 41,
+    "datum": "2026-04-26T07:00:00Z",
+    "stunden": "20.00",
+    "text": "Kunde informiert, Zwischenstand abgestimmt."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 595,
+  "fields": {
+    "projekt": 91,
+    "vorgang": 347,
+    "monteur": 41,
+    "datum": "2026-05-05T07:00:00Z",
+    "stunden": "31.50",
+    "text": "Vorgang abgeschlossen, Funktionsprüfung erfolgreich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 596,
+  "fields": {
+    "projekt": 91,
+    "vorgang": 348,
+    "monteur": 41,
+    "datum": "2026-06-07T07:00:00Z",
+    "stunden": "26.50",
+    "text": "Montage abgeschnitten, weiter geht es nächste Woche."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 597,
+  "fields": {
+    "projekt": 92,
+    "vorgang": 349,
+    "monteur": 50,
+    "datum": "2026-02-13T08:00:00Z",
+    "stunden": "31.40",
+    "text": "Inbetriebnahme abgeschlossen, Messwerte im Sollbereich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 598,
+  "fields": {
+    "projekt": 92,
+    "vorgang": 350,
+    "monteur": 50,
+    "datum": "2026-07-30T07:00:00Z",
+    "stunden": "6.40",
+    "text": "Kunde informiert, Zwischenstand abgestimmt."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 599,
+  "fields": {
+    "projekt": 92,
+    "vorgang": 350,
+    "monteur": 50,
+    "datum": "2026-07-27T07:00:00Z",
+    "stunden": "3.90",
+    "text": "Material angeliefert und verbaut, Anschluss vorbereitet."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 600,
+  "fields": {
+    "projekt": 92,
+    "vorgang": 350,
+    "monteur": 50,
+    "datum": "2026-07-27T07:00:00Z",
+    "stunden": "3.10",
+    "text": "Material angeliefert und verbaut, Anschluss vorbereitet."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 601,
+  "fields": {
+    "projekt": 92,
+    "vorgang": 351,
+    "monteur": 50,
+    "datum": "2026-07-05T07:00:00Z",
+    "stunden": "11.70",
+    "text": "Arbeiten planmäßig fortgesetzt, keine Auffälligkeiten."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 602,
+  "fields": {
+    "projekt": 93,
+    "vorgang": 353,
+    "monteur": 42,
+    "datum": "2026-02-23T08:00:00Z",
+    "stunden": "9.60",
+    "text": "Arbeiten planmäßig fortgesetzt, keine Auffälligkeiten."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 603,
+  "fields": {
+    "projekt": 93,
+    "vorgang": 353,
+    "monteur": 42,
+    "datum": "2026-02-18T08:00:00Z",
+    "stunden": "14.90",
+    "text": "Montage abgeschnitten, weiter geht es nächste Woche."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 604,
+  "fields": {
+    "projekt": 93,
+    "vorgang": 353,
+    "monteur": 50,
+    "datum": "2026-02-16T08:00:00Z",
+    "stunden": "18.30",
+    "text": "Inbetriebnahme abgeschlossen, Messwerte im Sollbereich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 605,
+  "fields": {
+    "projekt": 93,
+    "vorgang": 354,
+    "monteur": 42,
+    "datum": "2026-07-02T07:00:00Z",
+    "stunden": "6.70",
+    "text": "Montage abgeschnitten, weiter geht es nächste Woche."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 606,
+  "fields": {
+    "projekt": 93,
+    "vorgang": 354,
+    "monteur": 42,
+    "datum": "2026-06-28T07:00:00Z",
+    "stunden": "12.80",
+    "text": "Arbeiten planmäßig fortgesetzt, keine Auffälligkeiten."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 607,
+  "fields": {
+    "projekt": 93,
+    "vorgang": 355,
+    "monteur": 50,
+    "datum": "2026-06-10T07:00:00Z",
+    "stunden": "4.60",
+    "text": "Montage abgeschnitten, weiter geht es nächste Woche."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 608,
+  "fields": {
+    "projekt": 93,
+    "vorgang": 355,
+    "monteur": 42,
+    "datum": "2026-06-17T07:00:00Z",
+    "stunden": "0.40",
+    "text": "Material angeliefert und verbaut, Anschluss vorbereitet."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 609,
+  "fields": {
+    "projekt": 93,
+    "vorgang": 355,
+    "monteur": 50,
+    "datum": "2026-06-02T07:00:00Z",
+    "stunden": "34.70",
+    "text": "Arbeiten planmäßig fortgesetzt, keine Auffälligkeiten."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 610,
+  "fields": {
+    "projekt": 94,
+    "vorgang": 357,
+    "monteur": 50,
+    "datum": "2026-04-14T07:00:00Z",
+    "stunden": "23.20",
+    "text": "Endmontage erledigt, Anlage übergeben."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 611,
+  "fields": {
+    "projekt": 94,
+    "vorgang": 358,
+    "monteur": 50,
+    "datum": "2026-01-05T08:00:00Z",
+    "stunden": "25.20",
+    "text": "Material angeliefert und verbaut, Anschluss vorbereitet."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 612,
+  "fields": {
+    "projekt": 94,
+    "vorgang": 358,
+    "monteur": 50,
+    "datum": "2026-01-02T08:00:00Z",
+    "stunden": "4.00",
+    "text": "Vorgang abgeschlossen, Funktionsprüfung erfolgreich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 613,
+  "fields": {
+    "projekt": 94,
+    "vorgang": 359,
+    "monteur": 50,
+    "datum": "2026-03-04T08:00:00Z",
+    "stunden": "9.50",
+    "text": "Arbeiten planmäßig fortgesetzt, keine Auffälligkeiten."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 614,
+  "fields": {
+    "projekt": 94,
+    "vorgang": 359,
+    "monteur": 50,
+    "datum": "2026-03-25T08:00:00Z",
+    "stunden": "22.20",
+    "text": "Inbetriebnahme abgeschlossen, Messwerte im Sollbereich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 615,
+  "fields": {
+    "projekt": 94,
+    "vorgang": 360,
+    "monteur": 50,
+    "datum": "2026-06-18T07:00:00Z",
+    "stunden": "6.60",
+    "text": "Kunde informiert, Zwischenstand abgestimmt."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 616,
+  "fields": {
+    "projekt": 94,
+    "vorgang": 360,
+    "monteur": 50,
+    "datum": "2026-06-21T07:00:00Z",
+    "stunden": "1.60",
+    "text": "Material angeliefert und verbaut, Anschluss vorbereitet."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 617,
+  "fields": {
+    "projekt": 94,
+    "vorgang": 360,
+    "monteur": 50,
+    "datum": "2026-06-27T07:00:00Z",
+    "stunden": "3.00",
+    "text": "Arbeiten planmäßig fortgesetzt, keine Auffälligkeiten."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 618,
+  "fields": {
+    "projekt": 95,
+    "vorgang": 361,
+    "monteur": 44,
+    "datum": "2026-03-07T08:00:00Z",
+    "stunden": "5.00",
+    "text": "Material angeliefert und verbaut, Anschluss vorbereitet."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 619,
+  "fields": {
+    "projekt": 95,
+    "vorgang": 361,
+    "monteur": 44,
+    "datum": "2026-03-06T08:00:00Z",
+    "stunden": "25.10",
+    "text": "Vorgang abgeschlossen, Funktionsprüfung erfolgreich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 620,
+  "fields": {
+    "projekt": 95,
+    "vorgang": 362,
+    "monteur": 44,
+    "datum": "2026-03-06T08:00:00Z",
+    "stunden": "20.00",
+    "text": "Kunde informiert, Zwischenstand abgestimmt."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 621,
+  "fields": {
+    "projekt": 95,
+    "vorgang": 362,
+    "monteur": 44,
+    "datum": "2026-03-08T08:00:00Z",
+    "stunden": "18.50",
+    "text": "Vorgang abgeschlossen, Funktionsprüfung erfolgreich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 622,
+  "fields": {
+    "projekt": 95,
+    "vorgang": 363,
+    "monteur": 44,
+    "datum": "2026-08-15T07:00:00Z",
+    "stunden": "13.60",
+    "text": "Montage abgeschnitten, weiter geht es nächste Woche."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 623,
+  "fields": {
+    "projekt": 96,
+    "vorgang": 364,
+    "monteur": 45,
+    "datum": "2026-04-18T07:00:00Z",
+    "stunden": "13.60",
+    "text": "Kunde informiert, Zwischenstand abgestimmt."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 624,
+  "fields": {
+    "projekt": 96,
+    "vorgang": 364,
+    "monteur": 45,
+    "datum": "2026-04-17T07:00:00Z",
+    "stunden": "2.90",
+    "text": "Montage abgeschnitten, weiter geht es nächste Woche."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 625,
+  "fields": {
+    "projekt": 96,
+    "vorgang": 364,
+    "monteur": 44,
+    "datum": "2026-04-19T07:00:00Z",
+    "stunden": "16.50",
+    "text": "Inbetriebnahme abgeschlossen, Messwerte im Sollbereich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 626,
+  "fields": {
+    "projekt": 96,
+    "vorgang": 365,
+    "monteur": 47,
+    "datum": "2026-06-11T07:00:00Z",
+    "stunden": "10.60",
+    "text": "Montage abgeschnitten, weiter geht es nächste Woche."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 627,
+  "fields": {
+    "projekt": 96,
+    "vorgang": 365,
+    "monteur": 49,
+    "datum": "2026-06-21T07:00:00Z",
+    "stunden": "22.00",
+    "text": "Arbeiten planmäßig fortgesetzt, keine Auffälligkeiten."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 628,
+  "fields": {
+    "projekt": 97,
+    "vorgang": 367,
+    "monteur": 47,
+    "datum": "2026-02-28T08:00:00Z",
+    "stunden": "6.40",
+    "text": "Montage abgeschnitten, weiter geht es nächste Woche."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 629,
+  "fields": {
+    "projekt": 97,
+    "vorgang": 367,
+    "monteur": 47,
+    "datum": "2026-03-08T08:00:00Z",
+    "stunden": "4.70",
+    "text": "Montage abgeschnitten, weiter geht es nächste Woche."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 630,
+  "fields": {
+    "projekt": 97,
+    "vorgang": 367,
+    "monteur": 47,
+    "datum": "2026-03-12T08:00:00Z",
+    "stunden": "8.50",
+    "text": "Vorgang abgeschlossen, Funktionsprüfung erfolgreich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 631,
+  "fields": {
+    "projekt": 97,
+    "vorgang": 368,
+    "monteur": 47,
+    "datum": "2026-01-19T08:00:00Z",
+    "stunden": "12.90",
+    "text": "Arbeiten planmäßig fortgesetzt, keine Auffälligkeiten."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 632,
+  "fields": {
+    "projekt": 97,
+    "vorgang": 368,
+    "monteur": 47,
+    "datum": "2026-01-21T08:00:00Z",
+    "stunden": "16.50",
+    "text": "Inbetriebnahme abgeschlossen, Messwerte im Sollbereich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 633,
+  "fields": {
+    "projekt": 97,
+    "vorgang": 369,
+    "monteur": 47,
+    "datum": "2026-07-11T07:00:00Z",
+    "stunden": "1.90",
+    "text": "Arbeiten planmäßig fortgesetzt, keine Auffälligkeiten."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 634,
+  "fields": {
+    "projekt": 97,
+    "vorgang": 369,
+    "monteur": 47,
+    "datum": "2026-06-27T07:00:00Z",
+    "stunden": "2.10",
+    "text": "Arbeiten planmäßig fortgesetzt, keine Auffälligkeiten."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 635,
+  "fields": {
+    "projekt": 97,
+    "vorgang": 369,
+    "monteur": 47,
+    "datum": "2026-07-01T07:00:00Z",
+    "stunden": "6.70",
+    "text": "Arbeiten planmäßig fortgesetzt, keine Auffälligkeiten."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 636,
+  "fields": {
+    "projekt": 98,
+    "vorgang": 370,
+    "monteur": 43,
+    "datum": "2026-02-03T08:00:00Z",
+    "stunden": "4.70",
+    "text": "Lieferung verspätet, Restarbeiten verschieben sich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 637,
+  "fields": {
+    "projekt": 98,
+    "vorgang": 370,
+    "monteur": 43,
+    "datum": "2026-02-04T08:00:00Z",
+    "stunden": "30.60",
+    "text": "Zusätzliche Anpassungen an der Hydraulik erforderlich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 638,
+  "fields": {
+    "projekt": 98,
+    "vorgang": 370,
+    "monteur": 46,
+    "datum": "2026-01-21T08:00:00Z",
+    "stunden": "11.70",
+    "text": "Inbetriebnahme abgeschlossen, Messwerte im Sollbereich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 639,
+  "fields": {
+    "projekt": 98,
+    "vorgang": 371,
+    "monteur": 48,
+    "datum": "2026-04-08T07:00:00Z",
+    "stunden": "5.10",
+    "text": "Lieferung verspätet, Restarbeiten verschieben sich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 640,
+  "fields": {
+    "projekt": 98,
+    "vorgang": 371,
+    "monteur": 43,
+    "datum": "2026-04-15T07:00:00Z",
+    "stunden": "5.90",
+    "text": "Lieferung verspätet, Restarbeiten verschieben sich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 641,
+  "fields": {
+    "projekt": 98,
+    "vorgang": 371,
+    "monteur": 48,
+    "datum": "2026-04-23T07:00:00Z",
+    "stunden": "10.00",
+    "text": "Witterung/Zugang erschwert den Fortschritt deutlich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 642,
+  "fields": {
+    "projekt": 99,
+    "vorgang": 373,
+    "monteur": 49,
+    "datum": "2026-04-02T07:00:00Z",
+    "stunden": "14.60",
+    "text": "Material angeliefert und verbaut, Anschluss vorbereitet."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 643,
+  "fields": {
+    "projekt": 99,
+    "vorgang": 373,
+    "monteur": 49,
+    "datum": "2026-04-09T07:00:00Z",
+    "stunden": "24.90",
+    "text": "Vorgang abgeschlossen, Funktionsprüfung erfolgreich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 644,
+  "fields": {
+    "projekt": 99,
+    "vorgang": 374,
+    "monteur": 49,
+    "datum": "2026-06-24T07:00:00Z",
+    "stunden": "2.60",
+    "text": "Arbeiten planmäßig fortgesetzt, keine Auffälligkeiten."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 645,
+  "fields": {
+    "projekt": 99,
+    "vorgang": 374,
+    "monteur": 49,
+    "datum": "2026-06-22T07:00:00Z",
+    "stunden": "13.70",
+    "text": "Material angeliefert und verbaut, Anschluss vorbereitet."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 646,
+  "fields": {
+    "projekt": 99,
+    "vorgang": 375,
+    "monteur": 49,
+    "datum": "2026-07-11T07:00:00Z",
+    "stunden": "1.40",
+    "text": "Montage abgeschnitten, weiter geht es nächste Woche."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 647,
+  "fields": {
+    "projekt": 99,
+    "vorgang": 375,
+    "monteur": 49,
+    "datum": "2026-06-29T07:00:00Z",
+    "stunden": "9.20",
+    "text": "Montage abgeschnitten, weiter geht es nächste Woche."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 648,
+  "fields": {
+    "projekt": 100,
+    "vorgang": 377,
+    "monteur": 50,
+    "datum": "2026-03-23T08:00:00Z",
+    "stunden": "41.40",
+    "text": "Montage abgeschnitten, weiter geht es nächste Woche."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 649,
+  "fields": {
+    "projekt": 100,
+    "vorgang": 377,
+    "monteur": 47,
+    "datum": "2026-03-24T08:00:00Z",
+    "stunden": "25.70",
+    "text": "Endmontage erledigt, Anlage übergeben."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 650,
+  "fields": {
+    "projekt": 100,
+    "vorgang": 378,
+    "monteur": 50,
+    "datum": "2026-04-05T07:00:00Z",
+    "stunden": "8.20",
+    "text": "Montage abgeschnitten, weiter geht es nächste Woche."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 651,
+  "fields": {
+    "projekt": 100,
+    "vorgang": 378,
+    "monteur": 43,
+    "datum": "2026-03-23T08:00:00Z",
+    "stunden": "25.80",
+    "text": "Arbeiten planmäßig fortgesetzt, keine Auffälligkeiten."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 652,
+  "fields": {
+    "projekt": 100,
+    "vorgang": 378,
+    "monteur": 43,
+    "datum": "2026-03-22T08:00:00Z",
+    "stunden": "38.00",
+    "text": "Vorgang abgeschlossen, Funktionsprüfung erfolgreich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 653,
+  "fields": {
+    "projekt": 100,
+    "vorgang": 379,
+    "monteur": 50,
+    "datum": "2026-01-07T08:00:00Z",
+    "stunden": "6.50",
+    "text": "Montage abgeschnitten, weiter geht es nächste Woche."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 654,
+  "fields": {
+    "projekt": 100,
+    "vorgang": 379,
+    "monteur": 47,
+    "datum": "2026-01-05T08:00:00Z",
+    "stunden": "34.40",
+    "text": "Vorgang abgeschlossen, Funktionsprüfung erfolgreich."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 655,
+  "fields": {
+    "projekt": 100,
+    "vorgang": 380,
+    "monteur": 43,
+    "datum": "2026-06-27T07:00:00Z",
+    "stunden": "5.30",
+    "text": "Material angeliefert und verbaut, Anschluss vorbereitet."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 656,
+  "fields": {
+    "projekt": 100,
+    "vorgang": 380,
+    "monteur": 50,
+    "datum": "2026-06-14T07:00:00Z",
+    "stunden": "4.90",
+    "text": "Montage abgeschnitten, weiter geht es nächste Woche."
+  }
+},
+{
+  "model": "shk.projekttagebuch",
+  "pk": 657,
+  "fields": {
+    "projekt": 100,
+    "vorgang": 380,
+    "monteur": 50,
+    "datum": "2026-06-17T07:00:00Z",
+    "stunden": "2.80",
+    "text": "Kunde informiert, Zwischenstand abgestimmt."
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 537,
+  "fields": {
+    "eintrag": 523,
+    "produkt": 66,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 538,
+  "fields": {
+    "eintrag": 523,
+    "produkt": 68,
+    "menge": "4.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 539,
+  "fields": {
+    "eintrag": 525,
+    "produkt": 64,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 540,
+  "fields": {
+    "eintrag": 525,
+    "produkt": 61,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 541,
+  "fields": {
+    "eintrag": 526,
+    "produkt": 68,
+    "menge": "7.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 542,
+  "fields": {
+    "eintrag": 527,
+    "produkt": 67,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 543,
+  "fields": {
+    "eintrag": 530,
+    "produkt": 67,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 544,
+  "fields": {
+    "eintrag": 531,
+    "produkt": 67,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 545,
+  "fields": {
+    "eintrag": 531,
+    "produkt": 68,
+    "menge": "6.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 546,
+  "fields": {
+    "eintrag": 532,
+    "produkt": 68,
+    "menge": "4.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 547,
+  "fields": {
+    "eintrag": 534,
+    "produkt": 68,
+    "menge": "3.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 548,
+  "fields": {
+    "eintrag": 534,
+    "produkt": 67,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 549,
+  "fields": {
+    "eintrag": 535,
+    "produkt": 65,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 550,
+  "fields": {
+    "eintrag": 535,
+    "produkt": 63,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 551,
+  "fields": {
+    "eintrag": 536,
+    "produkt": 67,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 552,
+  "fields": {
+    "eintrag": 537,
+    "produkt": 64,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 553,
+  "fields": {
+    "eintrag": 537,
+    "produkt": 67,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 554,
+  "fields": {
+    "eintrag": 538,
+    "produkt": 66,
+    "menge": "2.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 555,
+  "fields": {
+    "eintrag": 539,
+    "produkt": 63,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 556,
+  "fields": {
+    "eintrag": 542,
+    "produkt": 65,
+    "menge": "2.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 557,
+  "fields": {
+    "eintrag": 542,
+    "produkt": 61,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 558,
+  "fields": {
+    "eintrag": 543,
+    "produkt": 61,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 559,
+  "fields": {
+    "eintrag": 543,
+    "produkt": 65,
+    "menge": "2.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 560,
+  "fields": {
+    "eintrag": 545,
+    "produkt": 68,
+    "menge": "3.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 561,
+  "fields": {
+    "eintrag": 546,
+    "produkt": 65,
+    "menge": "2.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 562,
+  "fields": {
+    "eintrag": 546,
+    "produkt": 64,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 563,
+  "fields": {
+    "eintrag": 547,
+    "produkt": 66,
+    "menge": "2.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 564,
+  "fields": {
+    "eintrag": 549,
+    "produkt": 64,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 565,
+  "fields": {
+    "eintrag": 550,
+    "produkt": 63,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 566,
+  "fields": {
+    "eintrag": 552,
+    "produkt": 61,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 567,
+  "fields": {
+    "eintrag": 554,
+    "produkt": 65,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 568,
+  "fields": {
+    "eintrag": 554,
+    "produkt": 61,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 569,
+  "fields": {
+    "eintrag": 555,
+    "produkt": 64,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 570,
+  "fields": {
+    "eintrag": 555,
+    "produkt": 63,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 571,
+  "fields": {
+    "eintrag": 556,
+    "produkt": 61,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 572,
+  "fields": {
+    "eintrag": 557,
+    "produkt": 68,
+    "menge": "3.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 573,
+  "fields": {
+    "eintrag": 557,
+    "produkt": 66,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 574,
+  "fields": {
+    "eintrag": 558,
+    "produkt": 65,
+    "menge": "2.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 575,
+  "fields": {
+    "eintrag": 558,
+    "produkt": 64,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 576,
+  "fields": {
+    "eintrag": 559,
+    "produkt": 66,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 577,
+  "fields": {
+    "eintrag": 560,
+    "produkt": 61,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 578,
+  "fields": {
+    "eintrag": 560,
+    "produkt": 68,
+    "menge": "4.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 579,
+  "fields": {
+    "eintrag": 562,
+    "produkt": 61,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 580,
+  "fields": {
+    "eintrag": 562,
+    "produkt": 65,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 581,
+  "fields": {
+    "eintrag": 563,
+    "produkt": 68,
+    "menge": "3.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 582,
+  "fields": {
+    "eintrag": 564,
+    "produkt": 68,
+    "menge": "3.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 583,
+  "fields": {
+    "eintrag": 565,
+    "produkt": 66,
+    "menge": "2.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 584,
+  "fields": {
+    "eintrag": 565,
+    "produkt": 61,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 585,
+  "fields": {
+    "eintrag": 566,
+    "produkt": 63,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 586,
+  "fields": {
+    "eintrag": 567,
+    "produkt": 63,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 587,
+  "fields": {
+    "eintrag": 569,
+    "produkt": 66,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 588,
+  "fields": {
+    "eintrag": 569,
+    "produkt": 64,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 589,
+  "fields": {
+    "eintrag": 570,
+    "produkt": 68,
+    "menge": "7.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 590,
+  "fields": {
+    "eintrag": 571,
+    "produkt": 68,
+    "menge": "4.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 591,
+  "fields": {
+    "eintrag": 571,
+    "produkt": 65,
+    "menge": "2.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 592,
+  "fields": {
+    "eintrag": 572,
+    "produkt": 64,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 593,
+  "fields": {
+    "eintrag": 572,
+    "produkt": 63,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 594,
+  "fields": {
+    "eintrag": 575,
+    "produkt": 64,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 595,
+  "fields": {
+    "eintrag": 576,
+    "produkt": 70,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 596,
+  "fields": {
+    "eintrag": 576,
+    "produkt": 69,
+    "menge": "24.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 597,
+  "fields": {
+    "eintrag": 577,
+    "produkt": 73,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 598,
+  "fields": {
+    "eintrag": 577,
+    "produkt": 71,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 599,
+  "fields": {
+    "eintrag": 578,
+    "produkt": 71,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 600,
+  "fields": {
+    "eintrag": 579,
+    "produkt": 69,
+    "menge": "14.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 601,
+  "fields": {
+    "eintrag": 579,
+    "produkt": 72,
+    "menge": "26.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 602,
+  "fields": {
+    "eintrag": 584,
+    "produkt": 71,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 603,
+  "fields": {
+    "eintrag": 585,
+    "produkt": 71,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 604,
+  "fields": {
+    "eintrag": 590,
+    "produkt": 71,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 605,
+  "fields": {
+    "eintrag": 591,
+    "produkt": 73,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 606,
+  "fields": {
+    "eintrag": 591,
+    "produkt": 69,
+    "menge": "12.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 607,
+  "fields": {
+    "eintrag": 592,
+    "produkt": 73,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 608,
+  "fields": {
+    "eintrag": 593,
+    "produkt": 71,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 609,
+  "fields": {
+    "eintrag": 594,
+    "produkt": 69,
+    "menge": "23.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 610,
+  "fields": {
+    "eintrag": 595,
+    "produkt": 73,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 611,
+  "fields": {
+    "eintrag": 595,
+    "produkt": 71,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 612,
+  "fields": {
+    "eintrag": 596,
+    "produkt": 72,
+    "menge": "27.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 613,
+  "fields": {
+    "eintrag": 597,
+    "produkt": 71,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 614,
+  "fields": {
+    "eintrag": 599,
+    "produkt": 71,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 615,
+  "fields": {
+    "eintrag": 599,
+    "produkt": 69,
+    "menge": "23.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 616,
+  "fields": {
+    "eintrag": 601,
+    "produkt": 70,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 617,
+  "fields": {
+    "eintrag": 604,
+    "produkt": 73,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 618,
+  "fields": {
+    "eintrag": 604,
+    "produkt": 69,
+    "menge": "15.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 619,
+  "fields": {
+    "eintrag": 605,
+    "produkt": 73,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 620,
+  "fields": {
+    "eintrag": 605,
+    "produkt": 69,
+    "menge": "20.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 621,
+  "fields": {
+    "eintrag": 606,
+    "produkt": 71,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 622,
+  "fields": {
+    "eintrag": 606,
+    "produkt": 72,
+    "menge": "24.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 623,
+  "fields": {
+    "eintrag": 608,
+    "produkt": 72,
+    "menge": "22.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 624,
+  "fields": {
+    "eintrag": 608,
+    "produkt": 73,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 625,
+  "fields": {
+    "eintrag": 610,
+    "produkt": 73,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 626,
+  "fields": {
+    "eintrag": 610,
+    "produkt": 71,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 627,
+  "fields": {
+    "eintrag": 614,
+    "produkt": 70,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 628,
+  "fields": {
+    "eintrag": 614,
+    "produkt": 69,
+    "menge": "12.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 629,
+  "fields": {
+    "eintrag": 615,
+    "produkt": 73,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 630,
+  "fields": {
+    "eintrag": 617,
+    "produkt": 72,
+    "menge": "39.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 631,
+  "fields": {
+    "eintrag": 617,
+    "produkt": 69,
+    "menge": "12.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 632,
+  "fields": {
+    "eintrag": 618,
+    "produkt": 74,
+    "menge": "2.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 633,
+  "fields": {
+    "eintrag": 619,
+    "produkt": 63,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 634,
+  "fields": {
+    "eintrag": 620,
+    "produkt": 66,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 635,
+  "fields": {
+    "eintrag": 620,
+    "produkt": 64,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 636,
+  "fields": {
+    "eintrag": 623,
+    "produkt": 66,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 637,
+  "fields": {
+    "eintrag": 624,
+    "produkt": 66,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 638,
+  "fields": {
+    "eintrag": 624,
+    "produkt": 64,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 639,
+  "fields": {
+    "eintrag": 626,
+    "produkt": 75,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 640,
+  "fields": {
+    "eintrag": 626,
+    "produkt": 64,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 641,
+  "fields": {
+    "eintrag": 627,
+    "produkt": 75,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 642,
+  "fields": {
+    "eintrag": 627,
+    "produkt": 74,
+    "menge": "3.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 643,
+  "fields": {
+    "eintrag": 630,
+    "produkt": 66,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 644,
+  "fields": {
+    "eintrag": 630,
+    "produkt": 75,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 645,
+  "fields": {
+    "eintrag": 632,
+    "produkt": 66,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 646,
+  "fields": {
+    "eintrag": 633,
+    "produkt": 75,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 647,
+  "fields": {
+    "eintrag": 635,
+    "produkt": 63,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 648,
+  "fields": {
+    "eintrag": 635,
+    "produkt": 66,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 649,
+  "fields": {
+    "eintrag": 636,
+    "produkt": 64,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 650,
+  "fields": {
+    "eintrag": 636,
+    "produkt": 75,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 651,
+  "fields": {
+    "eintrag": 637,
+    "produkt": 66,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 652,
+  "fields": {
+    "eintrag": 637,
+    "produkt": 63,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 653,
+  "fields": {
+    "eintrag": 638,
+    "produkt": 75,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 654,
+  "fields": {
+    "eintrag": 638,
+    "produkt": 64,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 655,
+  "fields": {
+    "eintrag": 639,
+    "produkt": 66,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 656,
+  "fields": {
+    "eintrag": 639,
+    "produkt": 74,
+    "menge": "2.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 657,
+  "fields": {
+    "eintrag": 641,
+    "produkt": 75,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 658,
+  "fields": {
+    "eintrag": 645,
+    "produkt": 64,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 659,
+  "fields": {
+    "eintrag": 646,
+    "produkt": 66,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 660,
+  "fields": {
+    "eintrag": 646,
+    "produkt": 67,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 661,
+  "fields": {
+    "eintrag": 647,
+    "produkt": 64,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 662,
+  "fields": {
+    "eintrag": 647,
+    "produkt": 68,
+    "menge": "5.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 663,
+  "fields": {
+    "eintrag": 648,
+    "produkt": 67,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 664,
+  "fields": {
+    "eintrag": 648,
+    "produkt": 68,
+    "menge": "5.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 665,
+  "fields": {
+    "eintrag": 649,
+    "produkt": 67,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 666,
+  "fields": {
+    "eintrag": 649,
+    "produkt": 64,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 667,
+  "fields": {
+    "eintrag": 650,
+    "produkt": 64,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 668,
+  "fields": {
+    "eintrag": 651,
+    "produkt": 66,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 669,
+  "fields": {
+    "eintrag": 652,
+    "produkt": 68,
+    "menge": "5.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 670,
+  "fields": {
+    "eintrag": 652,
+    "produkt": 64,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 671,
+  "fields": {
+    "eintrag": 653,
+    "produkt": 67,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 672,
+  "fields": {
+    "eintrag": 653,
+    "produkt": 66,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 673,
+  "fields": {
+    "eintrag": 656,
+    "produkt": 64,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 674,
+  "fields": {
+    "eintrag": 656,
+    "produkt": 67,
+    "menge": "1.00"
+  }
+},
+{
+  "model": "shk.materialposition",
+  "pk": 675,
+  "fields": {
+    "eintrag": 657,
+    "produkt": 68,
+    "menge": "2.00"
+  }
+}
+]
