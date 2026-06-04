@@ -5,3 +5,6 @@ Django==5.2.15
 # In TICKET-1 nur als Dependency installiert und in INSTALLED_APPS registriert.
 django-mcp-server==0.5.7
 mcp==1.27.2
+
+# Konfiguration aus .env-Datei (SECRET_KEY, DEBUG, ALLOWED_HOSTS).
+python-dotenv==1.2.2

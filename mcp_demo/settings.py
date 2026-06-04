@@ -10,22 +10,47 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
+import os
 from pathlib import Path
+
+from django.core.management.utils import get_random_secret_key
+from dotenv import load_dotenv
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+
+# Konfiguration aus .env laden (nicht im Repo; Vorlage: .env.example).
+load_dotenv(BASE_DIR / ".env")
+
+
+def _env_bool(name, default=False):
+    return os.environ.get(name, str(default)).strip().lower() in ("1", "true", "yes", "on")
 
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-b#xf1a$^hq(h13e+ucqb_ue==#w&$k7+3c*jk^##pr*s7w&)%3'
+# Produktion: über die Umgebungsvariable DJANGO_SECRET_KEY setzen.
+# Lokale Entwicklung: Key wird einmalig in der gitignore-Datei .secret_key erzeugt
+# und dort wiederverwendet – so liegt nie ein Secret im Repository.
+SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY")
+if not SECRET_KEY:
+    _key_file = BASE_DIR / ".secret_key"
+    if _key_file.exists():
+        SECRET_KEY = _key_file.read_text().strip()
+    else:
+        SECRET_KEY = get_random_secret_key()
+        _key_file.write_text(SECRET_KEY)
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# Default sicher (False); lokal via .env (DJANGO_DEBUG=True) aktivieren.
+DEBUG = _env_bool("DJANGO_DEBUG", False)
 
-ALLOWED_HOSTS = []
+# Kommagetrennte Hostliste aus der Umgebung; im DEBUG-Betrieb lokale Defaults.
+ALLOWED_HOSTS = [h.strip() for h in os.environ.get("DJANGO_ALLOWED_HOSTS", "").split(",") if h.strip()]
+if DEBUG and not ALLOWED_HOSTS:
+    ALLOWED_HOSTS = ["localhost", "127.0.0.1", "[::1]"]
 
 
 # Application definition

@@ -23,6 +23,8 @@ local_settings.py
 # Umgebung / Secrets
 .env
 .env.*
+!.env.example
+.secret_key
 
 # Editor / OS
 .DS_Store
