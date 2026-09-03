@@ -20,6 +20,7 @@ from typing import Annotated, Optional
 
 from django.db import transaction
 from django.utils import timezone
+from mcp.types import CallToolResult, TextContent
 from mcp_server import MCPToolset
 from pydantic import Field
 
@@ -301,6 +302,53 @@ def erstelle_rechnung_fuer_vorgang(vorgang_id, request=None):
 
 
 # --------------------------------------------------------------------------- #
+# Fehler-Dict → expliziter MCP-Fehler (isError=True)
+# --------------------------------------------------------------------------- #
+# Die schreibenden Funktionen geben im Fehlerfall ein strukturiertes Error-Dict
+# zurück. Ohne Weiterverarbeitung serialisiert django-mcp-server das mit
+# isError=False – der Client signalisiert „Erfolg" und manche Modelle schlucken
+# den Fall still. Deshalb wandeln die Wrapper Error-Dicts in ein CallToolResult
+# mit isError=True um (Klartext-Hinweis + strukturierte Details).
+_FEHLER_TEXTE = {
+    "projekt_nicht_gefunden":   "Projekt „{gesucht}“ wurde nicht gefunden.",
+    "projekt_mehrdeutig":       "Projekt „{gesucht}“ ist nicht eindeutig.",
+    "monteur_nicht_gefunden":   "Monteur „{gesucht}“ wurde nicht gefunden.",
+    "monteur_mehrdeutig":       "Monteur „{gesucht}“ ist nicht eindeutig.",
+    "vorgang_nicht_gefunden":   "Vorgang „{gesucht}“ wurde im Projekt nicht gefunden.",
+    "vorgang_mehrdeutig":       "Vorgang „{gesucht}“ ist im Projekt nicht eindeutig.",
+    "produkt_nicht_gefunden":   "Produkt „{gesucht}“ wurde im Katalog nicht gefunden.",
+    "produkt_mehrdeutig":       "Produkt „{gesucht}“ ist im Katalog nicht eindeutig.",
+    "materialposition_unvollstaendig": "Eine Materialposition ist unvollständig (Produkt und Menge nötig).",
+    "bereits_abgerechnet":      "Der Vorgang ist bereits abgerechnet.",
+    "nicht_abrechenbar":        "Der Vorgang ist nicht abrechenbar (nicht abgeschlossen).",
+}
+
+
+def _fehler_hinweis(err: dict) -> str:
+    """Menschenlesbarer Hinweis + Handlungsaufforderung aus einem Error-Dict."""
+    code = err.get("error", "fehler")
+    gesucht = err.get("gesucht", err.get("unbekanntes_produkt", err.get("vorgang_id", "")))
+    satz = _FEHLER_TEXTE.get(code, f"Aktion nicht möglich ({code}).").format(gesucht=gesucht)
+    kand = err.get("kandidaten")
+    if kand:
+        satz += f" Verfügbare Optionen: {', '.join(str(k) for k in kand)}."
+    if code.endswith(("_nicht_gefunden", "_mehrdeutig", "_unvollstaendig")):
+        satz += " Es wurde NICHTS gespeichert – bitte beim Nutzer nachfragen / präzisieren."
+    return satz
+
+
+def _als_tool_result(ergebnis):
+    """Erfolg unverändert durchreichen; Fehler explizit als isError=True markieren."""
+    if isinstance(ergebnis, dict) and "error" in ergebnis:
+        return CallToolResult(
+            content=[TextContent(type="text", text=_fehler_hinweis(ergebnis))],
+            structuredContent=ergebnis,
+            isError=True,
+        )
+    return ergebnis
+
+
+# --------------------------------------------------------------------------- #
 # MCP-Tools. Docstring = Tool-Beschreibung, Type-Hints/Annotated = Schema.
 # --------------------------------------------------------------------------- #
 class ShkTools(MCPToolset):
@@ -321,8 +369,10 @@ class ShkTools(MCPToolset):
         Katalog-Produkte gemappt sein; ein unbekanntes Produkt führt zur Ablehnung ohne
         Schreiben. Bei mehrdeutigem/unbekanntem Projekt werden Kandidaten zurückgegeben.
         NICHT für Auswertungen oder Rechnungen verwenden."""
-        return log_tagebuch_eintrag(projekt, monteur, vorgang, stunden,
-                                    materialpositionen, fortschritt, abgeschlossen)
+        return _als_tool_result(
+            log_tagebuch_eintrag(projekt, monteur, vorgang, stunden,
+                                 materialpositionen, fortschritt, abgeschlossen)
+        )
 
     def get_projekt_status(self) -> dict:
         """(LESEND) Statusüberblick ALLER Projekte mit Fokus auf zeitlichen Verzug.
@@ -358,4 +408,6 @@ class ShkTools(MCPToolset):
         zurück (url verweist auf die HTML-Rechnungs-View). Erst nach Prüfung der Beträge
         via ``get_abrechenbare_vorgaenge`` aufrufen. Doppelabrechnung wird verhindert: ein
         bereits abgerechneter Vorgang wird abgelehnt."""
-        return erstelle_rechnung_fuer_vorgang(vorgang_id, request=self.request)
+        return _als_tool_result(
+            erstelle_rechnung_fuer_vorgang(vorgang_id, request=self.request)
+        )

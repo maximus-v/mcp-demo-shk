@@ -16,6 +16,7 @@ Ein Chatbot (z. B. Claude Web Client) kann darüber:
 - Python 3.13 (Produktion) / 3.10–3.14 lauffähig · Django 5.2
 - `django-mcp-server` (Streamable-HTTP-Endpoint `/mcp`) · `mcp` SDK
 - `python-dotenv` für Konfiguration · SQLite
+- Docker (`gunicorn` + `whitenoise`) für ein containerisiertes Deployment
 
 ## Projektstruktur
 
@@ -65,6 +66,60 @@ URLs (lokal):
 - Admin: http://127.0.0.1:8000/admin/
 - Rechnung: http://127.0.0.1:8000/rechnung/<id>/
 - MCP: http://127.0.0.1:8000/mcp
+
+> In der eingecheckten lokalen `db.sqlite3` existiert bereits ein Superuser
+> (`admin` / `admin@example.com`). Passwort unbekannt/vergessen? Zurücksetzen mit:
+> ```bash
+> python manage.py changepassword admin
+> ```
+
+## Mit Docker starten
+
+Voraussetzung: Docker (inkl. `docker compose`). Auf macOS ohne Docker Desktop
+reicht `docker` + [`colima`](https://github.com/abiosoft/colima)
+(`brew install docker docker-compose colima`; bei
+`... check if the daemon is running` einmalig `colima start` ausführen).
+
+```bash
+docker compose up --build
+```
+
+Das baut das Image und startet den Container. Beim ersten Start passiert
+automatisch:
+
+- Datenbank-Migration (`manage.py migrate`)
+- Laden der Demo-Daten aus `shk/fixtures/demo_seed.json` (steuerbar über
+  `DJANGO_SEED_DEMO` in `docker-compose.yml`, Standard: `"true"`)
+
+Die Anwendung läuft danach unter **http://localhost:8000** (Admin unter
+`/admin/`, MCP-Endpoint unter `/mcp`). Die SQLite-Datenbank liegt im
+Docker-Volume `sqlite_data` (Pfad im Container: `/app/data/db.sqlite3`,
+gesteuert über `DJANGO_DB_PATH`) und bleibt beim `down` erhalten.
+
+Zum Stoppen: `Strg+C`, danach `docker compose down`.
+
+**Superuser anlegen** (bei laufendem Container): Das Docker-Volume startet mit
+einer leeren Datenbank, ein Superuser existiert dort also noch nicht.
+```bash
+docker compose exec web python manage.py createsuperuser
+```
+
+**Demo-Daten neu erzeugen / Beispielrechnung anlegen:**
+```bash
+docker compose exec web python manage.py seed_demo --flush
+docker compose exec web python manage.py seed_beispielrechnung
+```
+
+**Konfiguration** (in `docker-compose.yml` voreingestellt, für eine echte
+Bereitstellung anpassen):
+
+| Variable | Bedeutung | Default in docker-compose.yml |
+|---|---|---|
+| `DJANGO_SECRET_KEY` | Geheimer Schlüssel für Sessions/CSRF | `change-me-in-production` – **unbedingt ändern** |
+| `DJANGO_DEBUG` | Debug-Modus (im Container aus) | `False` |
+| `DJANGO_ALLOWED_HOSTS` | Erlaubte Hostnamen, kommagetrennt | `localhost,127.0.0.1` |
+| `DJANGO_DB_PATH` | Pfad der SQLite-Datei (Docker-Volume) | `/app/data/db.sqlite3` |
+| `DJANGO_SEED_DEMO` | Demo-Daten beim Start laden | `true` |
 
 ## Lokal testen
 

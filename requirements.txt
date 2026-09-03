@@ -8,3 +8,7 @@ mcp==1.27.2
 
 # Konfiguration aus .env-Datei (SECRET_KEY, DEBUG, ALLOWED_HOSTS).
 python-dotenv==1.2.2
+
+# Docker-Deployment
+gunicorn==23.0.0
+whitenoise==6.9.0
